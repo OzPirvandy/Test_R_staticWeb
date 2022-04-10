@@ -1,0 +1,22 @@
+---
+title: "Repertoire Classidication copetition"
+author: "Oz Pirvandy"
+date: 2022-04-06T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "interactive table"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# This is the current rank in the *Repertoire level contest*, see what is your rank ;).
+
+
+
+```{r cr, echo=FALSE}
+library(DT)
+datatable(iris, class = 'cell-border stripe',caption = 'Table 1: Repertoire leaderboard.',)
+```
+
+
