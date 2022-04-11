@@ -3,18 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-04-06T21:49:57-07:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2022-04-06T21:49:57-07:00</lastmod>
-  </url><url>
-    <loc>/2022/04/06/sequence-level-contest/</loc>
-    <lastmod>2022-04-06T21:49:57-07:00</lastmod>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
     <lastmod>2022-04-06T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/tags/interactive-table/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
     <lastmod>2022-04-06T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/categories/r/</loc>
@@ -23,13 +20,43 @@
     <loc>/tags/r-markdown/</loc>
     <lastmod>2022-04-06T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>/2022/04/06/repertoire-classidication-copetition/</loc>
+    <loc>/2022/04/06/repertoire-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/repertoire-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/repertoire-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/repertoire-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/repertoire-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/sequence-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/sequence-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/sequence-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/sequence-classification/</loc>
+    <lastmod>2022-04-06T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/2022/04/06/sequence-classification/</loc>
     <lastmod>2022-04-06T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2022-04-06T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/about/</loc>
+    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
+  </url><url>
+    <loc>/tasks/</loc>
     <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url>
 </urlset>

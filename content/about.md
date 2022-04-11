@@ -14,7 +14,7 @@ The iReceptor Plus project will build on the present iReceptor   <a href="www.ir
 By enabling searches for and aggregation of AIRR-seq data across vast, geographically distributed repositories, and providing sophisticated analyses of these combined data, iReceptor Plus will greatly enhance the value of these data for biomedical research and patient care.
 
 
-## The Mission
+## The 2022 Competition 
 Here we present several AIRR-seq datasets that contain various tasks. 
 [**Join us to solve them :)**](https://github.com/rstudio/blogdown)
 
