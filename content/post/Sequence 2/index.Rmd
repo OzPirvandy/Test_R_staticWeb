@@ -1,5 +1,5 @@
 ---
-title: "Sequence classification"
+title: "Sequence classification 2"
 author: "Oz Pirvandy"
 date: 2022-04-06T21:13:14-05:00
 categories: ["R"]
