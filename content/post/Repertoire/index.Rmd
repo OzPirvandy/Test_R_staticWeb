@@ -10,7 +10,9 @@ tags: ["R Markdown", "interactive table"]
 knitr::opts_chunk$set(collapse = TRUE)
 library(readr)
 library(DT)
-ranking <- read_csv("R1.csv")
+library(dplyr) 
+ranking <- read_csv("R1.csv")[,1:5]
+ranking = ranking %>% mutate_if(is.numeric, round, digits=3)
 ```
 
 # This is the current rank in the *Repertoire classification* contest, see what your rank is ;)
@@ -18,8 +20,35 @@ ranking <- read_csv("R1.csv")
 
 
 ```{r cr, echo=FALSE}
-library(DT)
-datatable(ranking, class = 'cell-border stripe',caption = '')
+  library(DT)
+library(reactable)
+#datatable(ranking, class = 'cell-border stripe',caption = '')
+
+#datatable(ranking, class = 'scrolling stripe hover row-border ',caption = '')
+reactable(ranking, showSortIcon = TRUE, resizable = TRUE,fullWidth = TRUE,
+          searchable = TRUE,highlight = TRUE,wrap = FALSE, 
+          defaultSorted = "R",
+    defaultColDef = colDef(
+    align = "center",
+    minWidth = 70,
+    headerStyle = list(background = "#f7f7f8")
+  ),        
+    columns = list(
+    R = colDef(minWidth = 30),  # overrides the default
+    delta = colDef(name = "\u394",minWidth = 70,cell = function(value) {
+    # Render as an X mark or check mark
+    if (-value < 0 ) paste("\u2193",-value) else paste("\u2191",-value)
+  })
+  ),
+          language = reactableLang(
+          searchPlaceholder = "Search...",
+          noData = "No entries found",
+          
+    # Accessible labels for assistive technologies such as screen readers.
+    # These are already set by default, but don't forget to update them when
+    # changing visible text.
+  )
+  )
 ```
 
 
