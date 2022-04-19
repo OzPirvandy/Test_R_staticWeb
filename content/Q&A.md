@@ -27,10 +27,11 @@ In this unique code competition, you are writing code in a Kaggle notebook that 
 
 This is a Code Competition
 
-Submissions to this competition must be made by an output from a Kaggle Notebook/Script.
+Submissions to this competition must be made by an output from a python/R or other open source coding language.
+The running time should be set by a colab Notebook/Script.
 
     CPU Notebook <= 5 hours run-time
     GPU Notebook <= 5 hours run-time
     TPU Notebook <= 3 hours run-time
     Enabling internet allowed
-    The submission file must be named images.zip, containing a zip file of 7,000-10,000 images sized 256x256. Review details on the Data Page.
+    The submission file must be named images.zip, containing a docker. Review details on the Data Page.
