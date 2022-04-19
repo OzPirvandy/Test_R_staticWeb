@@ -1,0 +1,7 @@
+R,delta,Group Name,Members,F1 score,Last modified,previous score
+4,3,APC,"X,Y,Z",0.8,12-04-2021,1
+2,0,Antigen,"A,A,A",0.827918578426745,12-04-2021,2
+3,0,Peptide,P,0.800950172486978,12-04-2021,3
+1,-3,ImmuneAI,,0.844425767155757,12-04-2021,4
+6,1,WillSmith,"Will, Smith",0.556778072023177,12-04-2021,5
+5,-1,ChrisRock,,0.786316122110729,12-04-2021,6
